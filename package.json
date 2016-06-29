@@ -1,0 +1,29 @@
+{
+  "name": "desktop-for-google-keep",
+  "version": "0.0.1",
+  "description": "A minimal Google Keep Desktop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron/electron-quick-start.git"
+  },
+  "keywords": [
+    "Google",
+    "Keep",
+    "desktop",
+    "electron",
+    "Google Keep"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/chriskol/desktop-for-google-keep"
+  },
+  "homepage": "https://github.com/chriskol/desktop-for-google-keep/#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0"
+  }
+}
