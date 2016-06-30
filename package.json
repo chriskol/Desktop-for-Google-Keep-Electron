@@ -1,14 +1,17 @@
 {
   "name": "desktop-for-google-keep",
-  "version": "0.0.1",
-  "description": "A minimal Google Keep Desktop",
+  "version": "0.1.0",
+  "description": "A minimal Google Keep Desktop Client App Packaged with Electron",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build:darwin": "electron-packager . $npm_package_productName --out=packages --ignore='^/packages$' --prune --asar --platform=darwin --arch=all --version=$npm_package_electronVersion --icon=assets/icon.icns",
+    "build:linux": "electron-packager . $npm_package_productName --out=packages --ignore='^/packages$' --prune --asar --platform=linux --arch=all --version=$npm_package_electronVersion --icon=assets/icon.png",
+    "build:windows": "electron-packager . $npm_package_productName --out=packages --ignore='^/packages$' --prune --asar --platform=win32 --arch=all --version=$npm_package_electronVersion --icon=assets/icon.ico"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
+    "url": "git+https://github.com/chriskol/desktop-for-google-keep.git"
   },
   "keywords": [
     "Google",
@@ -17,13 +20,14 @@
     "electron",
     "Google Keep"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "Christopher Kolmatycki",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/chriskol/desktop-for-google-keep"
   },
   "homepage": "https://github.com/chriskol/desktop-for-google-keep/#readme",
   "devDependencies": {
+    "electron-packager": "^7.1.0",
     "electron-prebuilt": "^1.2.0"
   }
 }
