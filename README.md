@@ -1,4 +1,4 @@
-# Desktop for Google Keep
+# Google Keep Desktop
 
 **A quick cross-platform app to view Google Keep as a desktop app**
 

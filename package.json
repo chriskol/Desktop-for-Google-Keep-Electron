@@ -1,13 +1,14 @@
 {
-  "name": "desktop-for-google-keep",
+  "name": "google-keep-desktop",
   "version": "0.1.0",
+  "productName": "Google Keep Desktop",
   "description": "A minimal Google Keep Desktop Client App Packaged with Electron",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build:darwin": "electron-packager . $npm_package_productName --out=packages --ignore='^/packages$' --prune --asar --platform=darwin --arch=all --version=$npm_package_electronVersion --icon=assets/icon.icns",
-    "build:linux": "electron-packager . $npm_package_productName --out=packages --ignore='^/packages$' --prune --asar --platform=linux --arch=all --version=$npm_package_electronVersion --icon=assets/icon.png",
-    "build:windows": "electron-packager . $npm_package_productName --out=packages --ignore='^/packages$' --prune --asar --platform=win32 --arch=all --version=$npm_package_electronVersion --icon=assets/icon.ico"
+    "build:darwin": "electron-packager . --out=packages --ignore='^/packages$' --prune --asar --platform=darwin --arch=all --version=$npm_package_electronVersion --icon=assets/icon.icns",
+    "build:linux": "electron-packager . --out=packages --ignore='^/packages$' --prune --asar --platform=linux --arch=all --version=$npm_package_electronVersion --icon=assets/icon.png",
+    "build:windows": "electron-packager . --out=packages --ignore='^/packages$' --prune --asar --platform=win32 --arch=all --version=$npm_package_electronVersion --iconURL=https://github.com/chriskol/Desktop-for-Google-Keep/blob/master/assets/icon.ico"
   },
   "repository": {
     "type": "git",
