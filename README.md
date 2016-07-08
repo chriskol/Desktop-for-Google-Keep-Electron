@@ -2,8 +2,8 @@
 
 **A quick cross-platform app to view Google Keep as a desktop app**
 
-Very simple. Based heavily from the electron-quick-start app https://github.com/electron/electron-quick-start/
-Requires node.js https://github.com/nodejs and Electron https://github.com/electron/
+Very simple. Based heavily from the [electron-quick-start-app] (https://github.com/electron/electron-quick-start/).
+Requires [node.js] (https://github.com/nodejs) and [Electron] (https://github.com/electron/).
 
 ## Install
 
