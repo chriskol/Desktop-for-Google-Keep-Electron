@@ -38,3 +38,5 @@ jspm_packages
 
 # Built Apps
 packages
+
+.DS_Store
