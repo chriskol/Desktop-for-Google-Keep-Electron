@@ -2,8 +2,8 @@
 
 **A quick cross-platform app to view Google Keep as a desktop app**
 
-Very simple. Based heavily from the [electron-quick-start-app] (https://github.com/electron/electron-quick-start/).
-Requires [node.js] (https://github.com/nodejs) and [Electron] (https://github.com/electron/).
+Very simple. Based heavily from the [electron-quick-start-app](https://github.com/electron/electron-quick-start/).
+Requires [node.js](https://github.com/nodejs) and [Electron](https://github.com/electron/).
 
 ## Install
 
@@ -27,4 +27,4 @@ npm run build:linux
 npm run build:windows
 ```
 
-Final app size is around 110MB and that is insane considering what this app does and it's source size but apparently this is a thing with Electron.
+Final app size is around 110MB and that is insane considering what this app does and it's source size but apparently this is a thing with Electron.  If you use a Mac, you should check out this [way more efficient app I wrote](https://github.com/chriskol/Desktop-Google-Keep-OSX).
