@@ -27,4 +27,4 @@ npm run build:linux
 npm run build:windows
 ```
 
-Final app size is around 110MB and that is insane considering what this app does and it's source size but apparently this is a thing with Electron.  If you use a Mac, you should check out this [way more efficient app I wrote](https://github.com/chriskol/Desktop-Google-Keep-OSX).
+If you use a Mac, you should also check out this [ever so slightly more efficient app I wrote using MacGap](https://github.com/chriskol/Desktop-Google-Keep-OSX).
