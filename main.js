@@ -1,4 +1,5 @@
 const electron = require('electron')
+const menu = require('./menu');
 // Module to control application life.
 const app = electron.app
 // Module to create native browser window.
@@ -8,9 +9,10 @@ const BrowserWindow = electron.BrowserWindow
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
 
-function createWindow () {
+function createWindow() {
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 1050, height: 800})
+  mainWindow = new BrowserWindow({width: 1050, height: 800});
+  electron.Menu.setApplicationMenu(menu);
 
   // and load the index.html of the app.
   //mainWindow.loadURL(`file://${__dirname}/index.html`)
