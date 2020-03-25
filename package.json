@@ -1,6 +1,6 @@
 {
   "name": "google-keep-desktop",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "productName": "Google Keep Desktop",
   "description": "A minimal Google Keep Desktop Client App Packaged with Electron",
   "main": "main.js",
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/chriskol/desktop-for-google-keep/#readme",
   "devDependencies": {
-    "electron-packager": "^12.2.0",
-    "electron-prebuilt": "^1.4.13"
+    "electron-packager": "^14.2.0",
+    "electron": "^8.2.0"
   }
 }
