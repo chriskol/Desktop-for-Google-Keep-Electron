@@ -29,6 +29,6 @@
   "homepage": "https://github.com/chriskol/desktop-for-google-keep/#readme",
   "devDependencies": {
     "electron-packager": "^14.2.0",
-    "electron": "^8.2.4"
+    "electron": "^8.5.1"
   }
 }
