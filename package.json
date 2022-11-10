@@ -1,6 +1,6 @@
 {
   "name": "google-keep-desktop",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "productName": "Google Keep Desktop",
   "description": "A minimal Google Keep Desktop Client App Packaged with Electron",
   "main": "main.js",
