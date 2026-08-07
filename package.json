@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/chriskol/desktop-for-google-keep/#readme",
   "devDependencies": {
-    "electron": "^41.1.0",
+    "electron": "^41.10.3",
     "@electron/packager": ">=19.1.0"
   }
 }
